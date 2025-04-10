@@ -7,7 +7,7 @@ namespace API_Harigami.Controllers
 {
     [Route("api/[controller]/[action]")]
     [ApiController]
-    [Authorize]
+    //[Authorize]
     public class MainlaneController : Controller
     {
         public readonly IConfiguration _config;
